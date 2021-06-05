@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>JavaScript 06</title>
+</head>
+<body>
+    <div class="container-sm">
+        
+        <div class="row align-items-center">
+            <div class="col-5"><img src="images/Screenshot1.png" alt="screen1"></div>
+            <div class="col-1"><button onclick="num1()" class="btn btn-primary">Num 1</button></div>
+            <div class="col"><p id="num1"></p></div>
+        </div>
+    </div>
+    <div class="container-sm" style="margin-top: 50px;">
+        <img src="images/Screenshot2.png" alt="screen1">
+        <form action="#" onsubmit="return num2(this);">
+            <input type="text" id="a" placeholder="input a: " ><br>
+            <input type="text" id="b" placeholder="input b: "><br>
+            <input type="text" id="x" placeholder="input x: "><br>
+            <button type="submit" class="btn btn-primary">Num 2</button>
+            <button type="reset" class="btn btn-danger">Reset</button><br>
+            <p id="num2"></p>
+        </form>
+    </div>
+    <div class="container-sm">
+        <div class="col"><img src="images/Screenshot3.png" alt=""></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
